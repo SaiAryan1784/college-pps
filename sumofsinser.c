@@ -20,7 +20,9 @@ void main()
     printf("Enter the no. of which sine series is needed");
     scanf("%d",&x);
 
-    int sum;
+    x*=3.14/180;
+
+    float sum;
     int c=1;
 
     for(int i=1;i<=c;i=i+2)
@@ -36,5 +38,5 @@ void main()
         c++;
     }
 
-    printf("sum of sine series is %d",sum);
+    printf("sum of sine series is %f",sum);
 }
